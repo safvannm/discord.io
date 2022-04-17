@@ -1,0 +1,137 @@
+.container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.n-left{
+    float: 1;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+
+
+.n-name{
+    font-size: 1.3rem;
+    font-weight: bolder;
+    font-family: discord;
+    color: white;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.n-right{
+    gap: 2rem;
+    float: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.n-list{
+    flex: 10;
+}
+
+.n-list>ul{
+    display: flex;
+    gap: 2rem;
+    font-family: franklin Gothic Medium;
+    margin-right: 4rem;
+    color: white;
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.n-list>ul>li:hover{
+    cursor: pointer;
+    color: rgb(3, 0, 156);
+    transition: .4s;
+
+}
+
+.btn{
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding: 10px;
+    background-color: rgb(3, 0, 156);
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #03009c;
+    background-color: white;
+    border: 3px solid #03009c;;
+    cursor: pointer;
+}
+
+.content{
+    color: rgb(255, 255, 255);
+    font-size:80px;
+    font-family:discord;
+    padding-left: 50px;
+    padding-top: 100px;
+    line-height: 80px;
+}
+
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0px 0px 50px;
+}
+
+.btm{
+    background-color: #03009c;
+    border: none;
+    border-radius: 30px;
+    height: 55px;
+    width: 300px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    position:absolute;
+    margin-top: 30px;
+}
+
+
+.btm a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 30px;
+    padding: auto;
+}
+
+
+.btm img{
+    width: 25px;
+    position: relative;
+    top: 5px;
+    padding: auto;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+    margin-left: 400px;
+}
+
+.btj{
+    width: 100%;
+}
+
+.image img{
+    display: flex;
+    position: absolute;
+    top: 15%;
+    right: 1%;
+    padding: 100px 50px;
+}
